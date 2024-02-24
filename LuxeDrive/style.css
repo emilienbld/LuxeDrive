@@ -1,0 +1,297 @@
+/* Style qui se trouve dans toutes les pages qui utilisent ses balises */
+body {
+  background-color: #f6e3da;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  color: #3498db;
+}
+
+h1 {
+  text-align: center;
+}
+
+.user-info {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  margin-bottom: 20px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.user-info a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style pour les pages de connexion.php et inscription.php */
+.connexionInscription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+.ci-container {
+  background-color: #dbeef6;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.ci-container label,
+.ci-container input,
+.ci-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ci-container button {
+  border-radius: 10px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.ci-link {
+  display: block;
+  margin-top: 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Style pour la page index.php */
+.index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marque-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.marque-container img {
+  border-radius: 10px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.marque-button {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #dbeef6;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  display: block;
+  width: 200px;
+}
+
+.luxedrive {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #dbeef6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.luxedrive h3 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.luxedrive p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Style pour la page marque.php */
+.vehicule-container {
+  background-color: #dbeef6;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vehicule-image {
+  border-radius: 5px;
+}
+
+.vehicule-info {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.details-button {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #dae6e3;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  display: block;
+  width: 200px;
+}
+
+/* Style pour la page vehicule_details.php */
+.details-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.details-container img {
+  border-radius: 10px;
+  width: 30%;
+}
+
+.caracteristiques {
+  background-color: #dbeef6;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photos-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.assuResa {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rounded-image {
+  border-radius: 10px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.reservation {
+  width: 500px;
+  margin: 10px;
+  background-color: #dbeef6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+}
+
+.prix {
+  text-align: center;
+  width: 500px;
+  margin: 10px auto;
+  background-color: #dbeef6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.reservation input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation select {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reservation input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.assurance {
+  background-color: #f6dadf;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour la page profil.php */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.imgProfil {
+  max-width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnAnnulerResa {
+  background-color: rgb(234, 87, 87);
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
